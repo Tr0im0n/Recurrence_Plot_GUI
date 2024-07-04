@@ -134,7 +134,7 @@ class dispTab:
         current_time = time()
         elapsed_time = round(current_time - self.start_time, 1)
 
-        path = 'C:/Users/Carl Ehlers/OneDrive/Dokumente/GitHub/Recurrence_project/datasets/' + self.file_path_extension[self.type_of_data.get()]
+        path = '/Data/' + self.file_path_extension[self.type_of_data.get()]
 
         # get data window
         window_size = 1000

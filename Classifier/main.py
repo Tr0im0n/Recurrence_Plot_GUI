@@ -26,10 +26,10 @@ def main():
     train_samples = 30000  # Number of samples to use for training
 
     # Load data
-    healthy_data_path = 'data/normal_3hp_1730rpm.csv'
-    inner_race_fault_007_path = 'data/.007_inner_race.csv'
-    ball_fault_007_path = 'data/.007_ball.csv'
-    outer_race_fault_007_path = 'data/.007_centerd_6.csv'
+    healthy_data_path = 'Data/normal_3hp_1730rpm.csv'
+    inner_race_fault_007_path = 'Data/.007_inner_race.csv'
+    ball_fault_007_path = 'Data/.007_ball.csv'
+    outer_race_fault_007_path = 'Data/.007_centerd_6.csv'
 
     healthy = load_data(healthy_data_path, 'X100_DE_time', num_samples)
     inner_race_fault_007 = load_data(inner_race_fault_007_path, 'X121_DE_time', num_samples)
